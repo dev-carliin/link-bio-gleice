@@ -11,7 +11,7 @@ export default function Home() {
       <div className=' w-full flex flex-col gap-4 md:max-w-xl mx-4 py-8 bg-[#D8D7D6]  my-8 rounded-xl px-4'>
         <div className="flex items-center">
           <Image
-            src="/foto_perfil.jpeg"
+            src="/foto_perfil.jpg"
             width={150}
             height={150}
             alt="Imagem do perfil de Gleice Mara"

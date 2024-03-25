@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp} from "react-icons/fa"
+import { FaArrowLeft, } from "react-icons/fa"
 
 
 
 
-export default function Home() {
+export default function Cursos() {
   return (
     <main className="w-full flex justify-center">
       <div className=' w-full flex flex-col gap-4 md:max-w-xl mx-4 py-8 bg-[#D8D7D6]  my-8 rounded-xl px-4'>
@@ -32,50 +32,26 @@ export default function Home() {
           </div>
         </div>
         <div className="flex w-full justify-around py-8 border-b border-zinc-800 mb-4">
-          <a
-            href="#"
-            className="p-4 bg-[#FF00FF] rounded-full text-white "
-          >
-            <FaFacebook />
-          </a>
-
-          <a
-            href="#"
-            className="p-4 bg-[#FF00FF] rounded-full text-white"
-          >
-            <FaInstagram  />
-          </a>
-
-          <a
-            href="#"
-            className="p-4 bg-[#FF00FF] rounded-full text-white"
-          >
-            <FaTiktok />
-          </a>
-
-          <a
-            href="#"
-            className="p-4 bg-[#FF00FF] rounded-full text-white"
-          >
-            <FaWhatsapp />
-          </a>
         </div>
-        <span className=" text-center uppercase">Links Úteis</span>
-        <Link
-          href="/clinica"
+        <span className=" text-center uppercase">cursos</span>
+        <Link className="text-lg" href={"/"} >
+          <FaArrowLeft />
+        </Link>
+        <a
+          href="#"
           className="w-full border-2 border-[#FF00FF] text-neutral-900 p-4 mt-3 flex items-center justify-between"
         >
-          AGENDAMENTO CLÍNICA
+         REALCE ESTÉTICA 
          
-        </Link>
+        </a>
 
-        <Link
-          href="/cursos"
+        <a
+          href="#"
           className="w-full  border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-          CURSOS
+          REALCE ESTÉTICA 
          
-        </Link>
+        </a>
 
         <a
           href="#"

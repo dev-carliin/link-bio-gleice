@@ -26,7 +26,7 @@ export default function Home() {
            
           />
 
-            <h1 className="text-2xl text-[#FF00FF]">Olá, eu sou Geice Mara!</h1>
+            <h1 className="text-2xl text-[#FF00FF]">Olá, eu sou Gleice Mara!</h1>
             <p className="italic text-[#FF00FF]">Esteticista e professora.</p>
           </div>
         </div>

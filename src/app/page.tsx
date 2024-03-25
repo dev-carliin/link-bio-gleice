@@ -64,7 +64,7 @@ export default function Home() {
           href="#"
           className="w-full border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-         REACE ESTETICA 
+         REALCE ESTÉTICA 
           <FaExternalLinkAlt />
         </a>
 
@@ -72,7 +72,7 @@ export default function Home() {
           href="#"
           className="w-full  border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-          REACE ESTETICA 
+          REALCE ESTÉTICA 
           <FaExternalLinkAlt />
         </a>
 
@@ -80,7 +80,7 @@ export default function Home() {
           href="#"
           className="w-full border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-          REACE ESTETICA 
+          REALCE ESTÉTICA 
           <FaExternalLinkAlt />
         </a>
 
@@ -88,7 +88,7 @@ export default function Home() {
           href="#"
           className="w-full  border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-          REACE ESTETICA 
+          REALCE ESTÉTICA 
           <FaExternalLinkAlt />
         </a>
 
@@ -96,7 +96,7 @@ export default function Home() {
           href="#"
           className="w-full  border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-         REACE ESTETICA 
+         REALCE ESTÉTICA 
           <FaExternalLinkAlt />
         </a>
 

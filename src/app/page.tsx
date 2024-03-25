@@ -1,98 +1,108 @@
 import Image from "next/image";
-import { FaExternalLinkAlt, FaGithub, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa"
+import { FaExternalLinkAlt, FaFacebook, FaInstagram, FaTiktok, FaWhatsapp} from "react-icons/fa"
 
-import styles from './style.module.css'
+
+
 
 export default function Home() {
   return (
     <main className="w-full flex justify-center">
-      <div className={styles['card-header']}>
+      <div className=' w-full flex flex-col gap-4 md:max-w-xl mx-4 py-8 bg-[#D8D7D6]  my-8 rounded-xl px-4'>
         <div className="flex items-center">
           <Image
-            src="https://github.com/guidocerqueira.png"
+            src="/foto_perfil.jpeg"
             width={150}
             height={150}
-            alt="Imagem do perfil de Guido Cerqueira"
+            alt="Imagem do perfil de Gleice Mara"
             className="rounded-full"
           />
 
           <div className="ml-4">
-            <h1 className="text-2xl text-purple-800">Olá, eu sou Guido Cerqueira!</h1>
-            <p className="italic text-purple-800">Desenvolvedor de software e professor de programação.</p>
+          <Image
+            src="/logo.svg"
+            width={350}
+            height={350}
+            alt="Imagem do perfil de Gleice Mara"
+           
+          />
+
+            <h1 className="text-2xl text-[#FF00FF]">Olá, eu sou Geice Mara!</h1>
+            <p className="italic text-[#FF00FF]">Esteticista e professora.</p>
           </div>
         </div>
-        <div className={styles["box-social"]}>
-          <a 
-            href="https://youtube.com/@guidocerqueira" 
-            className={styles["box-social-links"]}
+        <div className="flex w-full justify-around py-8 border-b border-zinc-800 mb-4">
+          <a
+            href="#"
+            className="p-4 bg-[#FF00FF] rounded-full text-white"
           >
-            <FaYoutube />
+            <FaFacebook />
           </a>
 
-          <a 
-            href="https://linkedin.com/in/guidocerqueira" 
-            className={styles["box-social-links"]}
+          <a
+            href="#"
+            className="p-4 bg-[#FF00FF] rounded-full text-white"
           >
-            <FaLinkedin />
+            <FaInstagram  />
           </a>
 
-          <a 
-            href="https://github.com/guidocerqueira" 
-            className={styles["box-social-links"]}
+          <a
+            href="#"
+            className="p-4 bg-[#FF00FF] rounded-full text-white"
           >
-            <FaGithub />
+            <FaTiktok />
           </a>
 
-          <a 
-            href="https://instagram.com/guidocerqueira" 
-            className={styles["box-social-links"]}
+          <a
+            href="#"
+            className="p-4 bg-[#FF00FF] rounded-full text-white"
           >
-            <FaInstagram />
+            <FaWhatsapp />
           </a>
         </div>
-
-        <a 
-          href="https://youtu.be/eMELJrBvndI"
-          className="w-full rounded-full border-2 border-purple-800 text-purple-800 p-4 flex items-center justify-between"
+        <span className=" text-center uppercase">Links Úteis</span>
+        <a
+          href="#"
+          className="w-full border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-          Deploy Backend na Cyclic
+         REACE ESTETICA 
           <FaExternalLinkAlt />
         </a>
 
-        <a 
-          href="https://youtu.be/eMELJrBvndI"
-          className="w-full rounded-full border-2 border-purple-800 text-purple-800 p-4 flex items-center justify-between"
+        <a
+          href="#"
+          className="w-full  border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-          Deploy Backend na Cyclic
+          REACE ESTETICA 
           <FaExternalLinkAlt />
         </a>
 
-        <a 
-          href="https://youtu.be/eMELJrBvndI"
-          className="w-full rounded-full border-2 border-purple-800 text-purple-800 p-4 flex items-center justify-between"
+        <a
+          href="#"
+          className="w-full border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-          Deploy Backend na Cyclic
+          REACE ESTETICA 
           <FaExternalLinkAlt />
         </a>
 
-        <a 
-          href="https://youtu.be/eMELJrBvndI"
-          className="w-full rounded-full border-2 border-purple-800 text-purple-800 p-4 flex items-center justify-between"
+        <a
+          href="#"
+          className="w-full  border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-          Deploy Backend na Cyclic
+          REACE ESTETICA 
           <FaExternalLinkAlt />
         </a>
 
-        <a 
-          href="https://youtu.be/eMELJrBvndI"
-          className="w-full rounded-full border-2 border-purple-800 text-purple-800 p-4 flex items-center justify-between"
+        <a
+          href="#"
+          className="w-full  border-2 border-[#FF00FF] text-neutral-900 p-4 flex items-center justify-between"
         >
-          Deploy Backend na Cyclic
+         REACE ESTETICA 
           <FaExternalLinkAlt />
         </a>
 
-        <span className="text-purple-800 min-full text-center mt-4">Criado por <a href="https://instagram.com/guidocerqueira" className="text-purple-400">Guido Cerqueira</a></span>
+        <span className="text-[#FF00FF] min-full text-center mt-4">Criado por <a href="https://newcoding.com.br" className="text-fuchsia-400">Newcoding</a></span>
       </div>
     </main>
   )
 }
+

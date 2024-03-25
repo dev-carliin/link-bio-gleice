@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Olá, eu sou Guido Cerqueira',
+  title: 'Olá, eu sou Gleice Mara',
   description: 'Aqui você encontra alguns links para as minhas redes sociais e meus conteúdos',
 }
 
@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className="h-full min-h-screen bg-gradient-to-tr from-purple-400 to-purple-800">{children}</body>
+      <body className="h-full min-h-screen bg-[#D8D7D6] ">{children}</body>
     </html>
   )
 }

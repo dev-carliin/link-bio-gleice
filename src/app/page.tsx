@@ -20,8 +20,8 @@ export default function Home() {
           <div className="ml-4">
           <Image
             src="/logo.svg"
-            width={350}
-            height={350}
+            width={250}
+            height={250}
             alt="Imagem do perfil de Gleice Mara"
            
           />
